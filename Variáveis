@@ -1,0 +1,32 @@
+Responda as perguntas de acordo com as variáveis.
+
+var branco = “preto”;
+var preto = “cinza”;
+var cinza = “branco”;
+var carro = “preto”;
+var valor = 30000;
+var prestacao = 750;
+
+
+// a) branco == “branco”
+console.log(branco == "branco"); // false
+
+// b) branco == cinza
+console.log(branco == cinza); // true
+
+// c) carro === branco
+console.log(carro === branco); // false
+
+// d) var cavalo = carro == “preto” ? “cinza” : “marron”;
+var cavalo = carro == "preto" ? "cinza" : "marron";
+console.log(cavalo); // "cinza"
+
+// e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação.
+var entrada = 3000;
+var valorRestante = valor - entrada;
+var numPrestacoes = valorRestante / prestacao;
+console.log("Número de prestações necessárias:", numPrestacoes); // 36
+
+// f) Somando as variáveis de cores é formada uma string de quantos caracteres?
+var totalCaracteres = branco.length + preto.length + cinza.length;
+console.log("Total de caracteres na string de cores:", totalCaracteres); // 15
