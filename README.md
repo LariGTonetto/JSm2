@@ -1,6 +1,15 @@
-# JSm2
+##  JavaScript EBAC
+### Módulo 2
 
-OPERADORES 
+Conteúdo visto:
+* Condicionais
+* Loops
+* Funções
+* Funções Recursivas
+* Eventos
+
+
+* OPERADORES 
 
 ![image](https://github.com/LariGTonetto/JSm2/assets/134953467/0f8a55bb-8e0b-472a-b11c-8515e12838ae)
 
